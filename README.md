@@ -1,8 +1,11 @@
 # position
 
+*** 이 부분이 굉장히 중요 ***
 
+position relative가 static보다 위에 있다. absolute는 relative보다 위에 있다. html 태그 상 fixed가 위에 입력된 경우fixed는 absolute보다 위에 있다. 
+z index를 입력하지 않은 경우를 전제로.
 
-position relative가 static보다 위에 있다. absolute는 relative보다 위에 있다. fixed는 absolute보다 위에 있다.  z index를 입력하지 않은 경우
+너무 당연하다 abosulte는 붕 떠있기 때문이고, 
 
 이 fixed는 top left right bottom의 값이 없으면 뷰포트 기준으로 그냥 원래 있어야 할 곳에 있다. 그래서 안 보일 수가 있다.
 

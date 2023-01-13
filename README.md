@@ -1,6 +1,23 @@
 # position
 
 
+
+position relative가 static보다 위에 있다. absolute는 relative보다 위에 있다. fixed는 absolute보다 위에 있다.  z index를 입력하지 않은 경우
+
+이 fixed는 top left right bottom의 값이 없으면 뷰포트 기준으로 그냥 원래 있어야 할 곳에 있다. 그래서 안 보일 수가 있다.
+
+html상 형제 요소로 아래에 위치하거나 뷰포트 밖에 있어서 스크롤을 내려야 볼 수 있다면 그 상황에서 픽스드만 입력하면 안 보인다. 즉 화면 밖에 위치하기 때문에 안 보인다.
+
+fixed의 기준은 뷰포트이기 때문이다.
+
+그리고 부모의 zindex가 더 중요하다. 가령 자식 요소의 zindex는 5이고 그 부모 요소는 1이라고 하자 그 부모요소와 형제인 요소가 fixed이고 zindex가 일이면 충돌한다.
+
+자식 요소가 5인 것은 안 중요하다.
+
+https://creamilk88.tistory.com/197
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
 0. position css
 
 css 상에서 position을 입력할 때 방법이다.

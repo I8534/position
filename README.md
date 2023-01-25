@@ -2,6 +2,8 @@
 
 *** 이 부분이 굉장히 중요 ***
 
+명심!! 포지션 앱솔루트는 상위요소 즉 부모요소 중에 릴레이티브 먹는 것을 기준으로 한다.
+
 position을 먹일려면 박스요소에다 해야 한다.
 
 position relative가 static보다 위에 있다. absolute는 relative보다 위에 있다. html 태그 상 fixed가 위에 입력된 경우fixed는 absolute보다 위에 있다. 

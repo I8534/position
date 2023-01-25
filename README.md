@@ -2,6 +2,8 @@
 
 *** 이 부분이 굉장히 중요 ***
 
+position을 먹일려면 박스요소에다 해야 한다.
+
 position relative가 static보다 위에 있다. absolute는 relative보다 위에 있다. html 태그 상 fixed가 위에 입력된 경우fixed는 absolute보다 위에 있다. 
 z index를 입력하지 않은 경우를 전제로.
 

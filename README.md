@@ -26,6 +26,19 @@ sticky relative는 우선 순위 없다.
 
 https://creamilk88.tistory.com/197
 
+
+[요소의 쌓임 순서]
+
+1. static을 제외한 position 속성의 값이 있을 경우 위에 쌓임. 값은 무관.
+  - relative, absolute, fixed, sticky 중 값에 상관 없이 특정 값이 있으면 일단 위에 쌓이는 것.
+ 
+2. position이 모두 존재한다면 z-index 속성의 숫자 값이 높을수록 위에 쌓임.
+
+3. position 속성의 값이 있고 z-index 속성의 숫자 값이 같다면 HTML의 마지막 코드일수록 위에 쌓임. 
+
+  - 가장 나중에 작성된 코드/요소.
+
+
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
 0. position css
